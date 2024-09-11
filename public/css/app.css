@@ -1,0 +1,119 @@
+/* Reset básico para remover margens e paddings padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do Menu de Navegação */
+.navbar {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #343a40; /* Cor do fundo da navbar */
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff; /* Cor do texto da marca */
+}
+
+.navbar-brand:hover {
+    color: #d4d4d4; /* Cor ao passar o mouse sobre a marca */
+}
+
+.nav-link {
+    font-size: 1rem;
+    color: #fff; /* Cor do texto dos links */
+}
+
+.nav-link:hover {
+    color: #d4d4d4; /* Cor ao passar o mouse sobre os links */
+}
+
+.nav-item.active .nav-link {
+    color: #17a2b8; /* Cor do link ativo */
+    font-weight: bold; /* Destaca o link ativo */
+}
+
+/* Estilo do Conteúdo Principal */
+.container {
+    max-width: 800px; /* Largura máxima do conteúdo */
+    margin: 20px auto; /* Centraliza o conteúdo com margem superior e inferior */
+    padding: 20px;
+}
+
+/* Estilo do Formulário */
+.form-container {
+    background-color: #fff; /* Cor de fundo do formulário */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centraliza o texto do formulário */
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333; /* Cor do texto do título */
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left; /* Alinha o texto dos rótulos à esquerda */
+}
+
+.form-group label {
+    font-weight: bold; /* Destaca os rótulos dos campos */
+}
+
+.form-control {
+    border: 1px solid #ced4da; /* Cor da borda do campo de entrada */
+    border-radius: 4px; /* Arredondamento das bordas */
+    padding: 10px;
+}
+
+.form-control:focus {
+    border-color: #80bdff; /* Cor da borda ao focar no campo */
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25); /* Sombra ao focar */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Cor de fundo do botão */
+    border: none; /* Remove a borda do botão */
+    border-radius: 4px; /* Arredondamento das bordas do botão */
+    padding: 10px 20px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Cor ao passar o mouse sobre o botão */
+}
+
+/* Estilo para Imagens */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Arredondamento das bordas das imagens */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ao redor das imagens */
+}
+
+.card {
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+.card-header {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
